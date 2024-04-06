@@ -1,13 +1,18 @@
 #include<iostream>
-#include"process.h"
+#include "process.h"
+#include "show_result.h"
+using std::cout, std::endl;
 
-using namespace std;
-
-int main(){
-    cout<<"planning start"<<endl;    
+int main()
+{
+    cout << "planing start" << endl;
     Process pro;
-    pro.planProcess();
-    cout<<"planning end"<<endl;
+    pro.plan_process();
+    cout << "planing end" << endl;
 
+    cout << "show result: " << endl;
+    ShowResult show;
+    show.drawResult();
+    
     return 0;
 }

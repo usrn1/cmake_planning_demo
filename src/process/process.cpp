@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Process::planProcess()
+void Process::plan_process()
 {
     cout << "this is planing process" << endl;
     my_map.mapInfo();

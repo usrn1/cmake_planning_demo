@@ -4,7 +4,7 @@
 class Process
 {
 public:
-    void planProcess();
+    void plan_process();
 public:
     PNC_Map my_map;
 };
