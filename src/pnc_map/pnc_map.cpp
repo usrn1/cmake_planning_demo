@@ -1,9 +1,8 @@
 #include<iostream>
-#include"pnc_map.h"
+#include "pnc_map.h"
+using std::cout, std::endl;
 
-using namespace std;
-
-void PNC_Map::mapInfo()
+void PNC_Map::map_info()
 {
-    cout<<"this is pnc_map"<<endl;
+    cout << "this is pnc_map" << endl;
 }

@@ -3,7 +3,5 @@
 class PNC_Map
 {
 public:
-    void mapInfo();
-
-
+    void map_info();
 };
